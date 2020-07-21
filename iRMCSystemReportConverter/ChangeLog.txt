@@ -1,0 +1,28 @@
+﻿0.0.2.2 - 07/20/2020
+* Support drag and drop for the input file
+
+0.0.2.1 - 03/27/2020
+* Added DIMM serial number information
+* Updated Author Email address from mmurayama@fujitsu.com to Masahiro.Murayama@fujitsu.com in Information Dialog
+
+0.0.2 - 11/15/2019
+* Added PCIe SSD information in SV RAID section for System Report
+* Added "Shared LAN2" for Management Port in System Report
+* Added BU100 support in System Report
+* Bug fix for RAID Adapter FW information process for System Report
+* X710-DAx shows subdeviceid 0x0000 other than the first port, so changed the name from Unknown to X710-DAx for System Report
+
+
+0.0.1 - 11/08/2019
+* Change the program name from iRMCSystemReportXML2HTML to iRMCSystemReportConverter
+* Change the version from 0.0.0.xx to 0.0.x
+
+* Added Network Interface information support for System Report
+* Added Linux MD and Windows/VMware AHCI information for System Report
+* Added NVIDIA PCIe adapter information support for System Report
+* Added Fujitsu Cougar5 adapter information support for System Report
+* Added Intel PCIe SSD information support for System Report
+* Added Qlogic PCIe adapter (Ethernet) information support for System Report
+
+* Fixed a typo in System Report processing
+* Did refactoring in the code
